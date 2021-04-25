@@ -99,44 +99,82 @@
   border-radius: 5px;
 }
 
-.text1{
-    color: #fff;
-    position: absolute;
-    top: 60%;
-    left: 8%;
+.text1 {
+  color: #fff;
+  position: absolute;
+  top: 60%;
+  left: 8%;
 }
 
-.country{
-    padding-top: 20px;
-    list-style: none;
-    display: flex;
+.country {
+  padding-top: 20px;
+  list-style: none;
+  display: flex;
 }
-.country a{
-    color: #fff;
-    background: #1597bb;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px 10px;
-    text-decoration: none;
-} 
-
-.contact{
-    color: #fff;
-    font-size: 20px;
-    display: flex;
-    
+.country a {
+  color: #fff;
+  background: #1597bb;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 10px;
+  text-decoration: none;
 }
 
-.weekly-deals{
-    position: absolute;
-    bottom: 40px;
-    left: 8%;
+.contact {
+  color: #fff;
+  font-size: 20px;
+  display: flex;
 }
 
-.contact1{
-    position: absolute;
-    bottom: 40px;
-    right: 20px;
-    border: 1px solid black;
-    background: #ff8303;
+.weekly-deals {
+  position: absolute;
+  bottom: 40px;
+  left: 8%;
+}
+
+.contact1 {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  border: 1px solid black;
+  background: #ff8303;
+}
+
+.season {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.season .fas {
+  font-size: 100px;
+}
+
+
+.season i, h5 {
+    padding: 10px;
+  }
+
+
+.autumn i {
+  color: #f05945;
+  
+}
+
+.winter i {
+  color: #23049d;
+}
+
+.spring i {
+  color: #81b214;
+}
+
+.summer i {
+  color: #ffb037;
+}
+
+.weekly  {
+  padding-bottom: 50px;
+  padding-left: 120px;
 }
