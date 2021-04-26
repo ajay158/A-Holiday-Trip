@@ -75,20 +75,16 @@
   padding-right: 30px;
 }
 
-.price {
+.w-50 {
+  position: relative;
   padding-right: 30px;
+  margin-right: 10px;
 }
 
-.date {
-  padding-right: 30px;
-}
-
-.duration {
-  padding-right: 30px;
-}
-
-.search-box {
-  padding-right: 30px;
+.w-50 i {
+  position: absolute;
+  right: 0;
+  top: 50%;
 }
 
 .box {
@@ -111,6 +107,10 @@
   list-style: none;
   display: flex;
 }
+
+.country li {
+  margin-right: 10px;
+}
 .country a {
   color: #fff;
   background: #1597bb;
@@ -132,12 +132,42 @@
   left: 8%;
 }
 
+.weekly-inner {
+  position: relative;
+}
+
+.weekly-inner i {
+  position: absolute;
+  left: 0;
+}
+
+.weekly-inner h5 {
+  padding: 0 10px 0 20px;
+}
+
 .contact1 {
   position: absolute;
   bottom: 40px;
   right: 20px;
   border: 1px solid black;
+  border-radius: 5px;
   background: #ff8303;
+}
+
+.contact-inner {
+  position: relative;
+}
+
+.contact-inner h5 {
+  padding: 10px;
+  margin: 0 10px 0 30px;
+}
+
+.contact-inner div {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  margin-left: 10px;
 }
 
 .season {
@@ -151,15 +181,13 @@
   font-size: 100px;
 }
 
-
-.season i, h5 {
-    padding: 10px;
-  }
-
+.season i,
+.season h5 {
+  padding: 10px;
+}
 
 .autumn i {
   color: #f05945;
-  
 }
 
 .winter i {
@@ -174,7 +202,105 @@
   color: #ffb037;
 }
 
-.weekly  {
+.weekly {
   padding-bottom: 50px;
   padding-left: 120px;
+}
+
+.countries1 {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin-left: 6em;
+}
+
+.img-text {
+  border: 1px solid lightblue;
+  border-radius: 0 0 20px 0;
+  margin: 10px;
+}
+
+.img-text img {
+  width: 100%;
+}
+.img-text .img {
+  position: relative;
+}
+
+.img{
+  position: relative;
+}
+.img .orange{
+  color: #fff;
+  background: #ffb037;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.img .green{
+  color: #fff;
+  background: #9ede73;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  left: 85px;
+}
+
+.far1{
+  font-size: 25px;
+  color: #fff; 
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  fill: #fff;
+}
+.text0{
+  padding: 10px 5px;
+}
+
+.text0 h5{
+  color: #23049d;
+  padding-bottom: 10px;
+}
+
+.text0 p{
+  padding: 10px 0;
+}
+
+.text0 .p1{
+  font-size: 12px;
+} 
+
+.more{
+  margin: 48px 100px;
+}
+
+.more a{
+  color: #6930c3;
+  text-decoration: none;
+}
+.more i{
+  color: #6930c3;
+  padding: 5px;
+}
+
+.most-popular-destinaton{
+  margin-left: 50px;
+}
+.popular-image{
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30% 30%;
+}
+
+.p-img img{
+  padding: 50px 10px;
+  width: 100%;
+  height: 100%;
 }
