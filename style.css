@@ -351,37 +351,37 @@
   font-size: 14px;
 }
 
-.div{
+.div {
   border: 1px solid #333;
   position: relative;
   padding: 10px 20px;
   width: 400px;
 }
 
-.icon-123{
-   background-color: transparent;
-   position: absolute;
-   left: 0;
-   top: 30%;
-   color: grey;
-   margin-left:5px ;
+.icon-123 {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  color: grey;
+  margin-left: 5px;
 }
 
-.form-123{
+.form-123 {
   background-color: #fff;
   margin-left: 10px;
 }
 
-.form-123 input{
+.form-123 input {
   border: 0;
   padding: 10px;
 }
 
-.form-123 input:focus{
+.form-123 input:focus {
   outline: 0;
 }
 
-.div1{
+.div1 {
   display: inline-block;
   background-color: #ff8303;
   padding: 10px 20px;
@@ -391,7 +391,7 @@
   top: 10%;
 }
 
-.div1 a{
+.div1 a {
   text-decoration: none;
   color: #fff;
 }
@@ -404,7 +404,7 @@
   position: relative;
 }
 
-.h1{
+.h1 {
   color: #ff005c;
 }
 
@@ -416,19 +416,18 @@
   padding: 10px 0;
 }
 
-.col div i{
+.col div i {
   display: inline-block;
   font-size: 25px;
   color: #f9f871;
-  
 }
 
-.col div{
+.col div {
   display: flex;
   flex-direction: column;
 }
 
-.col div a{
+.col div a {
   padding: 20px 0;
   text-decoration: none;
   color: #fff;
@@ -444,14 +443,14 @@ h2 {
   position: relative;
 }
 
-.cts .btn{
+.cts .btn {
   position: absolute;
   left: -35px;
-  top: 50px
+  top: 50px;
 }
 
-.cts .btn1{
+.cts .btn1 {
   position: absolute;
   left: -35px;
-  bottom: 5px
+  bottom: 5px;
 }
